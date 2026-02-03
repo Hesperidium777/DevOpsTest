@@ -15,7 +15,6 @@ Nginx (Reverse Proxy) ← Docker сеть → Python Backend
 
 - Docker 20.10+
 - Docker Compose 2.0+
-- Git (для клонирования репозитория)
 
 ## Установка и запуск
 

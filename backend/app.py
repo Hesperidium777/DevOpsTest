@@ -38,7 +38,7 @@ class HealthHandler(http.server.SimpleHTTPRequestHandler):
             self.send_header('X-Backend-Version', '1.0')
             self.end_headers()
             
-            response = "Hello from Effective Mobile!"
+            response = "Hello from Hesperidium!"
             self.wfile.write(response.encode('utf-8'))
             
             logger.info(f"Served request from {self.client_address[0]}: {self.path}")
@@ -73,4 +73,5 @@ def run_server():
             logger.info("Server closed")
 
 if __name__ == "__main__":
+
     run_server()
